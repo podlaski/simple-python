@@ -1,6 +1,6 @@
 import requests
 
-# check status code
+# check status code (add urls in urls list below)
 
 urls = [
     "https://arkadiuszpodlaski.pl",
