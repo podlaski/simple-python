@@ -2,7 +2,7 @@
 
 text = input('Add text: ')
 characters = len(text) # with whitespaces
-characters2 = len(text.replace(' ','')) # without whitespaces
+characters2 = len(text.replace(' ','').replace('\t','').replace('\n','')) # without whitespaces
 words = len(text.split())
 average = characters/words # with whitespaces
 average2 = characters2/words # without whitespaces
