@@ -7,10 +7,7 @@ urls = [
     "http://arkadiuszpodlaski.pl",
     ]
 
-
 for url in urls:
     page = requests.head(url)
     status = (f'{url} | {page.status_code}')
     print(status)
-
-    
