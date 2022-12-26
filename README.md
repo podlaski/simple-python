@@ -1,4 +1,4 @@
-001-hello-world.py\n
+001-hello-world.py
 002-character-counter.py
 003-word-counter.py
 004-word-and-character-counter.py
