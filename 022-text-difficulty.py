@@ -1,6 +1,6 @@
 # Text difficulty index
 
-SPECIAL = '.,:;\'\"!@#$%^&*()'
+SPECIAL = '.,:;\'\"!@#$%^&*()?'
 
 text = input('Add your text: ')
 
