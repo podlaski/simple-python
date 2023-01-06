@@ -1,5 +1,5 @@
 # Add in your console: python 027-sysargv-example.py example.txt
-# The system checks charackters and words from the file specified via the console.
+# The system checks charackters, words and lines from the file specified via the console.
 
 import sys
 
