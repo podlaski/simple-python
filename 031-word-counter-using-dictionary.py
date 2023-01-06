@@ -30,5 +30,5 @@ for word in words:
 # for word in words:
 #     counter[word] = counter.get(word, 0) + 1
 
-for x, y in counter.items():
-    print(x, y)
+for word, number in counter.items():
+    print(f'{number:3} | {word}')
