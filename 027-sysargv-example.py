@@ -10,5 +10,6 @@ with open(filename[1]) as stream:
 
 char = len(content)
 word = len(content.split())
+lines = len(content.split('\n'))
 
-print(f"Your file has {char} characters and {word} words.")
+print(f"Your file has {char} characters and {word} words and {lines} lines.")
